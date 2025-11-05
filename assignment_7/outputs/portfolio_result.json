@@ -1,0 +1,43 @@
+{
+  "name": "Main Portfolio",
+  "owner": "sdonadio",
+  "positions": [
+    {
+      "symbol": "AAPL",
+      "quantity": 100,
+      "price": 172.35,
+      "value": 9206.999969482422,
+      "volatility": 0.0024507229110456693,
+      "drawdown": -0.7361397466061926
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 50,
+      "price": 328.1,
+      "value": 16076.499938964844,
+      "volatility": 0.0009002435483172576,
+      "drawdown": -0.2452160765260747
+    }
+  ],
+  "sub_portfolios": [
+    {
+      "name": "Index Holdings",
+      "positions": [
+        {
+          "symbol": "SPY",
+          "quantity": 20,
+          "price": 430.5,
+          "value": 10783.800048828125,
+          "volatility": 0.0006361555659324894,
+          "drawdown": -0.13052355150721728
+        }
+      ],
+      "total_value": 10783.800048828125,
+      "aggregate_volatility": 0.0006361555659324894,
+      "max_drawdown": -0.13052355150721728
+    }
+  ],
+  "total_value": 36067.29995727539,
+  "aggregate_volatility": 0.0012170787830457926,
+  "max_drawdown": -0.7361397466061926
+}
