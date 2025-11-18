@@ -1,7 +1,7 @@
 import pandas as pd
 import polars as pl
 
-def load_pandas(path = 'market_data-1.csv'):
+def load_pandas(path):
     df = pd.read_csv(path, parse_dates=["timestamp"])
     df = df[["timestamp","symbol","price"]]
     df["symbol"] = df["symbol"].astype(str)
