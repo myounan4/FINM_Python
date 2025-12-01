@@ -74,8 +74,14 @@ def parquet_task2_rolling_5d_vol(
     base_path = Path(base_dir)
     all_dfs = []
     for part in base_path.glob("ticker=*"):
+        ticker = part.name.split("=", 1)[1]  # "AAPL"
+
         df = pd.read_parquet(part, engine="pyarrow")
+
+        df["ticker"] = ticker
+
         all_dfs.append(df)
+
 
     full = pd.concat(all_dfs, ignore_index=True)
     full["timestamp"] = pd.to_datetime(full["timestamp"])
