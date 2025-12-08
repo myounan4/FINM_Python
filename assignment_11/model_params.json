@@ -1,0 +1,9 @@
+{
+  "LogisticRegression": {
+    "max_iter": 1000
+  },
+  "RandomForestClassifier": {
+    "n_estimators": 100,
+    "random_state": 42
+  }
+}

@@ -102,8 +102,8 @@ class RSIMeanReversionStrategy(BaseStrategy):
 
 @dataclass
 class MomentumBreakoutConfig:
-    lookback: int = 30
-    breakout_pct: float = 0.003  
+    lookback: int = 50
+    breakout_pct: float = 0.01
     units: int = 10
 
 

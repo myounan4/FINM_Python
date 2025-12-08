@@ -1,0 +1,32 @@
+{
+  "LogisticRegression": {
+    "cv_accuracy": 0.48097560975609754,
+    "cv_precision": 0.39524202010493015,
+    "cv_recall": 0.47088105635515853,
+    "confusion_matrix": [
+      [
+        437,
+        196
+      ],
+      [
+        373,
+        224
+      ]
+    ]
+  },
+  "RandomForestClassifier": {
+    "cv_accuracy": 0.4770731707317073,
+    "cv_precision": 0.5038461346480214,
+    "cv_recall": 0.5946728753738749,
+    "confusion_matrix": [
+      [
+        633,
+        0
+      ],
+      [
+        0,
+        597
+      ]
+    ]
+  }
+}
